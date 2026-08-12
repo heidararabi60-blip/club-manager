@@ -466,9 +466,9 @@ elif view_mode == "🔐 ورود به پنل مدیریت":
         <b>مربی:</b> {coach_name}<br>
         <div style="margin-top: 5px;"><b>تلفن مربی:</b> <span dir="ltr">{to_persian_digits(coach_phone)}</span></div>
     </div>
-</div>
-</div>"""
-                    st.markdown(card_html, unsafe_allow_html=True)
+ </div>
+ </div>"""
+                 st.markdown(card_html, unsafe_allow_html=True)
 
         # ----------------------------------------------------------------------
         # SPECIALTIES MANAGEMENT
